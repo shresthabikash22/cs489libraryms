@@ -33,6 +33,7 @@ public class LibmsApplication {
 			);
 			System.out.println(publisherService.createPublisher(publisherRequest));
 			System.out.println(publisherService.findAllPublisher());
+
 		};
 	}
 

@@ -1,11 +1,10 @@
-HELP.md
-.gradle
+# Gradle specific files
+.gradle/
 build/
 !gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### STS ###
+# IDE specific files
+### STS (Spring Tool Suite) ###
 .apt_generated
 .classpath
 .factorypath
@@ -18,7 +17,7 @@ bin/
 !**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -35,3 +34,11 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# System-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Java specific files
+*.class
+*.log
