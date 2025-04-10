@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Data
 public class Address {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "adderess_id")
     public Long id;
     @Column(nullable = false)
